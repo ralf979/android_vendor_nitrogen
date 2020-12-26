@@ -71,7 +71,8 @@ PRODUCT_PACKAGES += \
     messaging \
     QuickAccessWallet \
     Stk \
-    Terminal
+    Terminal \
+    CustomDoze
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
@@ -121,6 +122,8 @@ PRODUCT_PACKAGES += \
 
 # Boot animations
 $(call inherit-product-if-exists, vendor/nitrogen/products/bootanimation.mk)
+
+$(call inherit-product, vendor/nitrogen/config/fonts.mk)
 
 # Nitrogen OTA
 #$(call inherit-product-if-exists, vendor/nitrogen/products/ota.mk)

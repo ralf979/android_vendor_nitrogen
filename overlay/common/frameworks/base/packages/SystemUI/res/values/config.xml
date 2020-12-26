@@ -15,6 +15,13 @@
     <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">false</bool>
 
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- Whether or not to add a "people" notifications section -->
+    <bool name="config_usePeopleFiltering">true</bool>
+
     <!-- SystemUI Plugins that can be loaded on user builds. -->
     <string-array name="config_pluginWhitelist" translatable="false">
         <item>com.android.systemui</item>
