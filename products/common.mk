@@ -127,6 +127,9 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     DefaultThemesStub
 
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Boot animations
 $(call inherit-product-if-exists, vendor/nitrogen/products/bootanimation.mk)
 
